@@ -23,4 +23,13 @@ public class TeacherController {
     public String sayService(){
         return "development|QR Code solution";
  }
+
+ @GetMapping("/Welcome")
+    public String sayWelcome(){
+        return  "Welcome To Pune";
+ }
+@GetMapping("/say")
+    public String hello(){
+        return "Helllllo";
+}
 }
